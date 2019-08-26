@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  r9ood:
+    image: iris4865/flask-structure
+    build: .
+    ports:
+      - 5000:5000
